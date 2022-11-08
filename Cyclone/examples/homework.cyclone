@@ -1,0 +1,55 @@
+/**
+ * HOMEWORK1 Cyclone 王伊斓 Yilan Wang 3200105318 ZJU
+ */
+
+/**
+ * McCarthy91 function.
+ *		 _
+ *		|  n-10,		if n>100
+ * M(n)=| 
+ *		|_ M(M(n+11)),	if n<=100
+ *
+ */
+
+option-trace=true; 
+
+machine McCarthy91{	
+	int n;
+	int push=1; 
+	abstract final start state M{
+    }
+	
+    /*
+     * function when n>100
+     **/
+	normal final state M1{
+		n=n-10;
+		push=push-1;
+	}
+
+    /*
+     * function when n<=100
+     **/
+	normal final state M2{
+		n=n+11;
+		push=push+1;
+	}
+
+    /*
+     * all possible actions.
+     **/
+	trans t0 { M -> M1 where n>100;}
+	trans t1 { M -> M2 }
+	trans t2 { M1 -> M2 where n<=100 && push>=1; }
+	trans t3 { M2 -> M1 where n>100 && push>=1; }
+	trans t4 { M2 -> M2 }
+	trans t5 { M1 -> M1 }  
+
+	goal{
+		assert (initial(n)==87);
+		assert some (n==91 && push==0); 
+
+		check for 30
+	}
+
+}

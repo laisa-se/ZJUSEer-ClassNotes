@@ -1,0 +1,1 @@
+Data Source = 5050BF; Initial Catalog = PhoneBook; Integrated Security = SSPI;

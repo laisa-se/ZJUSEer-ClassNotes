@@ -1,0 +1,45 @@
+
+/**
+ * a zero sum game
+ *
+ * Prove a zero sum game.
+ * 
+ */
+machine zerosum {
+
+	int stake1; //player1's stake
+	int stake2; //player2's stake
+
+	start normal state Start{
+		stake1 = 0;
+		stake2 = 0;
+	}
+
+	normal state P1W{
+		stake1 = stake1 + 1;
+		stake2 = stake2 - 1;
+	}
+	
+	normal state P2W{
+		stake1 = stake1 - 1;
+		stake2 = stake2 + 1;
+	}
+
+	transition t0 {Start -> P1W}
+	transition t1 {Start -> P2W}
+	transition t2 {P1W -> P1W}
+	transition t3 {P1W -> P2W}
+	transition t4 {P2W -> P1W}
+	transition t5 {P2W -> P2W}
+
+	/* zerosum invariant must hold in all states. */
+	invariant zerosum { stake1 + stake2 == 0; }
+
+	goal{
+		check for 1,2,3,4,5 reach (P1W,P2W)
+	}
+	
+}
+
+
+

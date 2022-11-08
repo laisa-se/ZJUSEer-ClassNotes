@@ -1,0 +1,15 @@
+C:\Users\BFaghih\source\repos\IntoWindowsFormsApp\bin\Debug\netcoreapp3.1\IntoWindowsFormsApp.exe
+C:\Users\BFaghih\source\repos\IntoWindowsFormsApp\bin\Debug\netcoreapp3.1\IntoWindowsFormsApp.deps.json
+C:\Users\BFaghih\source\repos\IntoWindowsFormsApp\bin\Debug\netcoreapp3.1\IntoWindowsFormsApp.runtimeconfig.json
+C:\Users\BFaghih\source\repos\IntoWindowsFormsApp\bin\Debug\netcoreapp3.1\IntoWindowsFormsApp.runtimeconfig.dev.json
+C:\Users\BFaghih\source\repos\IntoWindowsFormsApp\bin\Debug\netcoreapp3.1\IntoWindowsFormsApp.dll
+C:\Users\BFaghih\source\repos\IntoWindowsFormsApp\bin\Debug\netcoreapp3.1\IntoWindowsFormsApp.pdb
+C:\Users\BFaghih\source\repos\IntoWindowsFormsApp\obj\Debug\netcoreapp3.1\IntoWindowsFormsApp.csprojAssemblyReference.cache
+C:\Users\BFaghih\source\repos\IntoWindowsFormsApp\obj\Debug\netcoreapp3.1\IntoWindowsFormsApp.Form1.resources
+C:\Users\BFaghih\source\repos\IntoWindowsFormsApp\obj\Debug\netcoreapp3.1\IntoWindowsFormsApp.csproj.GenerateResource.cache
+C:\Users\BFaghih\source\repos\IntoWindowsFormsApp\obj\Debug\netcoreapp3.1\IntoWindowsFormsApp.AssemblyInfoInputs.cache
+C:\Users\BFaghih\source\repos\IntoWindowsFormsApp\obj\Debug\netcoreapp3.1\IntoWindowsFormsApp.AssemblyInfo.cs
+C:\Users\BFaghih\source\repos\IntoWindowsFormsApp\obj\Debug\netcoreapp3.1\IntoWindowsFormsApp.csproj.CoreCompileInputs.cache
+C:\Users\BFaghih\source\repos\IntoWindowsFormsApp\obj\Debug\netcoreapp3.1\IntoWindowsFormsApp.dll
+C:\Users\BFaghih\source\repos\IntoWindowsFormsApp\obj\Debug\netcoreapp3.1\IntoWindowsFormsApp.pdb
+C:\Users\BFaghih\source\repos\IntoWindowsFormsApp\obj\Debug\netcoreapp3.1\IntoWindowsFormsApp.genruntimeconfig.cache

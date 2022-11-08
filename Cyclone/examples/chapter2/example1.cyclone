@@ -1,0 +1,27 @@
+
+/**
+ * Chapter 2:
+ * Tutorial Example 1
+ * A simple counting machine
+ */
+  machine Counting { 
+      int  c;
+      start normal state  R {c=0;} 
+      normal state  I {c=c+1;} 
+      normal state  D {c=c-1;} 
+
+      transition  t1 { R -> I } 
+      transition  t2 { R -> D } 
+      transition  t3 { I -> R } 
+      transition  t4 { I -> D } 
+      transition  t5 { I -> I } 
+      transition  t6 { D -> R } 
+      transition  t7 { D -> I } 
+      transition  t8 { D -> D } 
+ 
+    goal{
+        assert c==3;
+        enumerate for 5 condition (D) reach (R,I,D)
+    }
+	
+}
